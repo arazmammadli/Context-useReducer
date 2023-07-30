@@ -39,7 +39,7 @@ function toggleTodo(todos: ITodoItem[], id: number) {
 
 const initialState: ITodoState = {
     todos: [],
-    newTodo: ""
+    newTodo: "",
 }
 
 function todoReducer(state:ITodoState, action: ActionType) {

@@ -1,6 +1,6 @@
 export interface ITodoState {
     todos: ITodoItem[];
-    newTodo: string
+    newTodo: string;
 }
 
 export interface ITodoItem {
